@@ -2,7 +2,7 @@
 
 A full stack sample that runs a `hello-world` app and a `grafana-stack`.
 
-The freamework chosen is `ASP.NET Core`.
+The framework chosen is `ASP.NET Core`.
 
 The app is a `blazor server` app.
 
