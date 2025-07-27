@@ -1,5 +1,6 @@
 ﻿@page "/"
 @rendermode InteractiveServer
+@inject HelloWorldMetrics MetricsService
 
 <PageTitle>Hello, world!</PageTitle>
 
@@ -15,6 +16,7 @@
     private void IncrementCount()
     {
         currentCount++;
+        MetricsService.ButtonPressed();
     }
 
 }
